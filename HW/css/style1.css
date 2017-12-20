@@ -1,0 +1,47 @@
+body{
+    background: url("../img/s2.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+    padding:200px 0;
+}
+.front{
+    background-color:black;
+    color: white;
+    opacity: .5;
+    height: 250px;
+    width: 280px;
+    margin:0 auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.front-img{
+    padding:0 85px;
+    animation:center1;
+    animation-duration:9s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes center1 {
+    0%{transform:rotate(0deg);}
+    50%{transform:rotate(360deg);}
+    100%{transform: rotate(0deg);}
+}
+
+
+.link{
+    background-color: blue;
+    font-size: 30px;
+    color:white;
+    margin:0 75px 0 75px;
+    text-decoration: none;
+    transition: .5s;
+}
+.link:hover{
+    text-decoration: none;
+    color:white;
+   background-color: green;
+}

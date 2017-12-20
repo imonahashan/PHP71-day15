@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="jumbotron">
+    <div class="container">
+        <div class="col-md-10 m-auto formBody">
+            <h1>Registration for </h1>
+            <hr>
+            <form action="show.html" method="post">
+
+                <div class="col-md-7 m-auto form-area">
+                    <label>COURSE NAME<span class="important">*</span></label>
+                        <select name="course" id="course" class="form-control">
+                            <option value="">Select your Course</option>
+                            <option value="">Web App Develop-PHP</option>
+                            <option value="">Web Design</option>
+                            <option value="">Web App Develop-Dot Net</option>
+                            <option value="">Graphic & Web UI Design</option>
+                            <option value="">IT Sales</option>
+                            <option value="">Digital Marketing</option>
+                            <option value="">Practical SEO</option>
+                            <option value="">Customer Support & Service</option>
+                        </select>
+                </div>
+
+                <div class="col-md row form-area">
+                    <div class="col-md-4">
+                        <label>FIRST NAME<span class="important">*</span></label>
+                            <input type="text" name="first_name" id="firstName" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>MIDDLE NAME<span class="important">*</span></label>
+                        <input type="text" name="middle_name" id="middleName" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>LAST NAME<span class="important">*</span></label>
+                        <input type="text" name="last_name" id="lastName" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="col-md row form-area">
+                    <div class="col-md-6">
+                        <label>FATHER NAME<span class="important">*</span></label>
+                            <input type="text" name="father_name" id="fatherName" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label>MOTHER NAME<span class="important">*</span></label>
+                            <input type="text" name="mother_name" id="MOTHERName" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="col-md row form-area">
+                    <div class="col-md-6">
+                        <label>NATIONAL ID</label>
+                        <input type="number" name="national_id" id="nationalId" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label>DATE of BIRTH<span class="important">*</span></label>
+                        <input type="date" name="date_of_birth" id="dateOfBirth" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="col-md row form-area">
+                    <div class="col-md-4">
+                        <label>GENDER<span class="important">*</span></label>
+                        <input type="radio" name="gender" value="Male"/>MALE
+                        <input type="radio" name="gender" value="Female"/>FEMALE
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>PHONE NUMBER<span class="important">*</span></label>
+                        <input type="number" name="phone_number" id="phoneNumber" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>E-MAIL ADDRESS<span class="important">*</span></label>
+                        <input type="email" name="email_address" id="emailAddress" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="col-md row form-area">
+                    <div class="col-md-4">
+                        <label>Is Employed?</label>
+                        <input type="radio" name="is_employed?" value="YES"/>YES
+                        <input type="radio" name="is_employed?" value="NO"/>NO
+                    </div>
+
+                    <div class="col-md-8">
+                        <label>MONTHLY INCOME</label>
+                        <input type="number" name="phone_number" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="col-md m-auto form-area">
+                    <label>PRESENT ADDRESS<span class="important">*</span></label>
+                    <input type="text" name="present_address" id="presentAddress" class="form-control"/>
+                </div>
+
+                <div class="col-md m-auto form-area">
+                    <label>PERMANENT ADDRESS<span class="important">*</span></label>
+                    <input type="text" name="permanent_address" id="permanentAddress" class="form-control"/>
+                </div>
+
+
+                    <div class="col-md-12">
+                        <h3>SSC or Equivalent</h3>
+                        <hr>
+                    </div>
+                <div class="col-md row form-area">
+                    <div class="col-md-4">
+                        <label>BOARD<span class="important">*</span></label>
+                        <input type="text" name="board" id="board" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>INSTITUTE<span class="important">*</span></label>
+                        <input type="text" name="institute" id="institute" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>SUBJECT<span class="important">*</span></label>
+                        <input type="text" name="subject" id="subject" class="form-control"/>
+                    </div>
+                </div>
+                <div class="col-md row form-area">
+                    <div class="col-md-4">
+                        <label>YEAR<span class="important">*</span></label>
+                        <input type="number" name="year" id="year" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>ROLL NUMBER<span class="important">*</span></label>
+                        <input type="number" name="roll_number" id="rollNumber" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>RESULT<span class="important">*</span></label>
+                        <input type="number" name="result" id="result" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <h3>HSC or Equivalent</h3>
+                    <hr>
+                </div>
+                <div class="col-md row form-area">
+                    <div class="col-md-4">
+                        <label>BOARD<span class="important">*</span></label>
+                        <input type="text" name="board" id="board" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>INSTITUTE<span class="important">*</span></label>
+                        <input type="text" name="institute" id="institute" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>SUBJECT<span class="important">*</span></label>
+                        <input type="text" name="subject" id="subject" class="form-control"/>
+                    </div>
+                </div>
+                <div class="col-md row form-area">
+                    <div class="col-md-4">
+                        <label>YEAR<span class="important">*</span></label>
+                        <input type="number" name="year" id="year" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>ROLL NUMBER<span class="important">*</span></label>
+                        <input type="number" name="roll_number" id="rollNumber" class="form-control"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label>RESULT<span class="important">*</span></label>
+                        <input type="number" name="result" id="result" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <lavel>Choose your image</lavel>
+                    <input type="file" accept="image/*" onchange="loadFile(event)">
+                </div>
+                <div class="imgPreview">
+                    <img id="output" style="width:20%; margin-top:10px;"  src=""/>
+                </div>
+
+
+                <script>
+                    var loadFile = function(event) {
+                        var reader = new FileReader();
+                        reader.onload = function(){
+                            var output = document.getElementById('output');
+                            output.src = reader.result;
+                        };
+                        reader.readAsDataURL(event.target.files[0]);
+                    };
+
+                </script>
+
+
+
+
+                <div class="col-md-6 m-auto">
+                    <input type="submit" id="submit" class="form-control btn btn-outline-success"/>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/my-script.js"></script>
+</body>
+</html>

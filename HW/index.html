@@ -10,7 +10,7 @@
 <div class="jumbotron">
     <div class="container">
         <div class="col-md-10 m-auto formBody">
-            <h1>Registration for </h1>
+            <h1>Registration form</h1>
             <hr>
             <form action="show.html" method="post">
 
@@ -33,16 +33,19 @@
                     <div class="col-md-4">
                         <label>FIRST NAME<span class="important">*</span></label>
                             <input type="text" name="first_name" id="firstName" class="form-control"/>
+                        <span id="firstNameError" style="color: red"></span>
                     </div>
 
                     <div class="col-md-4">
                         <label>MIDDLE NAME<span class="important">*</span></label>
                         <input type="text" name="middle_name" id="middleName" class="form-control"/>
+                        <span id="middleNameError" style="color: red"></span>
                     </div>
 
                     <div class="col-md-4">
                         <label>LAST NAME<span class="important">*</span></label>
                         <input type="text" name="last_name" id="lastName" class="form-control"/>
+                        <span id="lastNameError" style="color: red"></span>
                     </div>
                 </div>
 
@@ -50,11 +53,13 @@
                     <div class="col-md-6">
                         <label>FATHER NAME<span class="important">*</span></label>
                             <input type="text" name="father_name" id="fatherName" class="form-control"/>
+                        <span id="fatherNameError" style="color: red"></span>
                     </div>
 
                     <div class="col-md-6">
                         <label>MOTHER NAME<span class="important">*</span></label>
                             <input type="text" name="mother_name" id="MOTHERName" class="form-control"/>
+                        <span id="motherNameError" style="color: red"></span>
                     </div>
                 </div>
 
